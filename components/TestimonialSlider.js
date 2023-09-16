@@ -43,7 +43,7 @@ const TestimonialSlider = () => {
       pagination={{
         clickable: true,
       }}
-      modules={{Navigation, Pagination}}
+      modules={[Navigation, Pagination]}
       className="h-[400px]"
     >
       {testimonialData.map((person, index) => {
@@ -51,7 +51,7 @@ const TestimonialSlider = () => {
         <SwiperSlide key={index}>
           <div className="flex flex-col items-center md:flex-row gap-x-8 h-full px-16">
             <div className="w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0">
-              <div className="flex flex-col justify-center text-ccenter">
+              <div className="flex flex-col justify-center text-center">
                 <div className="mb-2 mx-auto">
                 <Image src={person.image} alt="" width={100} height={100} />
                 </div>

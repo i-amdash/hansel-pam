@@ -32,7 +32,7 @@ const Work = () => {
           </motion.p>
         </div>
         <motion.div
-          variant={fadeIn ('down', 0.4)}
+          variants={fadeIn ('down', 0.4)}
           initial='hidden'
           animate='show'
           exit='hidden'
