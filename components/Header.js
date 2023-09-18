@@ -10,7 +10,7 @@ const Header = () => {
     <div className="container mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6">
         <Link href={'/'}>
-        <h2 className="h3">hansel <span className="text-accent"> pam</span></h2>
+        <h2 className="h3">hans <span className="text-accent"> artts</span></h2>
           {/* <Image src={'/logo.svg'} alt="" width={220} height={48} priority={true}/> */}
         </Link>
         <Socials />

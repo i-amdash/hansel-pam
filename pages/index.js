@@ -25,15 +25,20 @@ const Home = () => {
         animate="show" 
         exit="hidden"
         className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">take a deep dive into the mind of a creative genius and unravel in the brilliance that is ...</motion.p>
-        <div className="flex justify-center xl:hidden relative">
+        <motion.div 
+        variants={fadeIn('down' , 0.4)} 
+        initial="hidden" 
+        animate="show" 
+        exit="hidden"
+        className="flex justify-center xl:hidden relative">
           <ProjectsBtn />
-        </div>
+        </motion.div>
         <motion.div 
         variants={fadeIn('down' , 0.4)} 
         initial="hidden" 
         animate="show" 
         exit="hidden" 
-        className="hidden xl:block">
+        className="hidden xl:flex">
           <ProjectsBtn />
         </motion.div>
       </div>

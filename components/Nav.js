@@ -7,6 +7,7 @@ import {
   HiChatBubbleBottomCenterText,
   HiEnvelope,
 } from 'react-icons/hi2';
+import { IoIosShirt } from 'react-icons/io';
 
 // nav data
 export const navData = [
@@ -20,9 +21,9 @@ export const navData = [
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
-    name: 'contact',
-    path: '/contact',
-    icon: <HiEnvelope />,
+    name: 'customise',
+    path: '/customise',
+    icon: <IoIosShirt />,
   },
   { name: 'shop', path: '/services', icon: <HiShoppingBag /> },
 ];
