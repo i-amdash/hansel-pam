@@ -6,11 +6,11 @@ import {
     headContentAnimation,
     headTextAnimation,
     slideAnimation
-} from '../../../config/motion';
+} from '../../config/motion';
 
-import state from '../../../components/store';
+import state from '../store';
 import Image from 'next/image';
-import CustomButton from '../../../components/CustomButton';
+import CustomButton from '../CustomButton';
 
 const Home = () => {
     const snap = useSnapshot(state);

@@ -1,7 +1,7 @@
 import Circles from "../../components/Circles";
 import Canvas from "../../components/canvas";
 import Customizer from "../../components/Customizer";
-import Home from "./home";
+import Home from "../../components/home";
 
 const Customise = () => {
   return (
