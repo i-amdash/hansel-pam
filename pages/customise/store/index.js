@@ -1,4 +1,5 @@
 import { proxy } from "valtio";
+import React from 'react';
 
 const state = proxy({
     intro: true,
