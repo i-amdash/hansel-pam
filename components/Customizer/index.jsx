@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import config from '../../../config/config';
-import state from '../../../components/store';
-import { download } from '../../../public';
+import config from '../../config/config';
+import state from '../store';
+import { download } from '../../public';
 import Image from 'next/image';
-import { downloadCanvasToImage, reader } from '../../../config/helpers';
-import { EditorTabs, FilterTabs, DecalTypes } from '../../../config/constants';
-import { fadeAnimation, slideAnimation } from '../../../config/motion';
-import AIPicker from '../../../components/AIPicker';
-import Tab from '../../../components/Tab';
-import FilePicker from '../../../components/FilePicker';
-import ColorPicker from '../../../components/ColorPicker';
-import CustomButton from '../../../components/CustomButton';
+import { downloadCanvasToImage, reader } from '../../config/helpers';
+import { EditorTabs, FilterTabs, DecalTypes } from '../../config/constants';
+import { fadeAnimation, slideAnimation } from '../../config/motion';
+import AIPicker from '../AIPicker';
+import Tab from '../Tab';
+import FilePicker from '../FilePicker';
+import ColorPicker from '../ColorPicker';
+import CustomButton from '../CustomButton';
 import { useSnapshot } from 'valtio';
 
 const Customizer = () => {

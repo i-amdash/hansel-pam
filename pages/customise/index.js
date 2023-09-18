@@ -1,6 +1,6 @@
 import Circles from "../../components/Circles";
-import Canvas from "./canvas";
-import Customizer from "./Customizer";
+import Canvas from "../../components/canvas";
+import Customizer from "../../components/Customizer";
 import Home from "./home";
 
 const Customise = () => {
