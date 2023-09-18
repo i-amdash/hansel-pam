@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import config from '../../../config/config';
-import state from '../store';
+import state from '../../../components/store';
 import { download } from '../../../public';
 import Image from 'next/image';
 import { downloadCanvasToImage, reader } from '../../../config/helpers';

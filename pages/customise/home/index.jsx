@@ -8,7 +8,7 @@ import {
     slideAnimation
 } from '../../../config/motion';
 
-import state from '../store';
+import state from '../../../components/store';
 import Image from 'next/image';
 import CustomButton from '../../../components/CustomButton';
 
